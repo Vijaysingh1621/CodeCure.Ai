@@ -88,7 +88,7 @@ const Navigation = () => {
         <nav className="flex items-center justify-between h-full">
           <Link to="/" onClick={() => handleNavClick('/', 'top')} className="flex items-center gap-2">
             <Shield className="w-5 h-5 text-primary" />
-            <span className="font-bold text-base">CodeCure.ai</span>
+            <span className="font-bold text-2xl ">CodeCure.AI</span>
           </Link>
 
           {/* Desktop Navigation */}

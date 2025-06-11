@@ -4,6 +4,7 @@ import { Shield, Zap, Download, Chrome, Code, Bug, Brain, CheckCircle } from "lu
 import { Button } from "@/components/ui/button";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
+import chrome from "../../public/chromeExt.jpg"
 
 const Products = () => {
   const features = [
@@ -86,7 +87,7 @@ const Products = () => {
             
             <div className="mb-6">
               <img
-                src="/lovable-uploads/c32c6788-5e4a-4fee-afee-604b03113c7f.png"
+                src="../../public/vscode.png"
                 alt="VS Code Extension Screenshot"
                 className="w-full rounded-lg"
               />
@@ -169,7 +170,7 @@ const Products = () => {
             
             <div className="mb-6">
               <img
-                src="/lovable-uploads/21f3edfb-62b5-4e35-9d03-7339d803b980.png"
+                src={chrome}
                 alt="Chrome Extension Screenshot"
                 className="w-full rounded-lg"
               />
