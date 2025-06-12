@@ -8,6 +8,7 @@ import TestimonialsSection from "@/components/TestimonialsSection";
 import Footer from "@/components/Footer";
 import ChatWidget from "@/components/ChatWidget";
 import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
+import vulpage from "../../public/dashboard.png"
 
 const Index = () => {
   return (
@@ -78,7 +79,7 @@ const Index = () => {
         >
           <div className="glass rounded-xl overflow-hidden">
             <img
-              src="../../public/dashboard.png"
+              src={vulpage}
               alt="CodeCure.ai Security Dashboard"
               className="w-full h-auto"
             />

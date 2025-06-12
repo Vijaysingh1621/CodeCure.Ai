@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import chrome from "../../public/chromeExt.jpg"
+import vscode from "../../public/vscode.png";
 
 const Products = () => {
   const features = [
@@ -87,7 +88,7 @@ const Products = () => {
             
             <div className="mb-6">
               <img
-                src="../../public/vscode.png"
+                src={vscode}
                 alt="VS Code Extension Screenshot"
                 className="w-full rounded-lg"
               />

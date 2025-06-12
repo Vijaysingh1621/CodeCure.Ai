@@ -13,6 +13,7 @@ import Docs from "./pages/Docs";
 import VSCodeExtension from "./pages/products/VSCodeExtension";
 import CodeScope from "./pages/products/CodeScope";
 
+
 const queryClient = new QueryClient();
 
 const App = () => (
