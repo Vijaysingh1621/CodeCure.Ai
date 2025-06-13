@@ -14,7 +14,7 @@ const Pricing = () => {
       period: "forever",
       description: "Perfect for individual developers getting started",
       features: [
-        "50 vulnerability scans per month",
+        "Basic vulnerability scans per month",
         "Basic OWASP Top 10 detection",
         "VS Code extension access",
         "Security score reporting",
@@ -25,7 +25,7 @@ const Pricing = () => {
     },
     {
       name: "Pro",
-      price: "$29",
+      price: "₹299",
       period: "per month",
       description: "Advanced features for professional developers",
       features: [
@@ -49,7 +49,6 @@ const Pricing = () => {
       features: [
         "Everything in Pro",
         "Custom deployment options",
-        "SSO integration",
         "Advanced compliance reporting",
         "Custom security rules",
         "Dedicated account manager",
